@@ -114,20 +114,20 @@ p {
 
 .about-link {
     position: fixed;
-    top: 10px;
-    left: 20px;
+    top: 20px;
+    left: 40px;
     color: white;
-    font-size: 21px;
+    font-size: 24px;
     border-bottom: none;
     text-decoration: none;
 }
 
 .home-link {
     position: fixed;
-    top: 10px;
-    right: 20px;
+    top: 20px;
+    right: 40px;
     color: white;
-    font-size: 21px;
+    font-size: 24px;
     border-bottom: none;
     text-decoration: none;
 }
@@ -174,12 +174,14 @@ video {
     padding-top: 50px;
 }
 
+p a,
 h1 a,
 .data-table a {
     color: #1db7ff;
     text-decoration: none;
 }
 
+p a:visited,
 h1 a:visited,
 .data-table a:visited {
     color: #1db7ff;

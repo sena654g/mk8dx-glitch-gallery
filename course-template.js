@@ -7,7 +7,7 @@ if (data) {
     document.getElementById("categoryLink").href = data.categoryLink;
     document.getElementById("categoryLink").textContent = data.category;
     document.getElementById("courseTitle").textContent = data.title;
-    document.getElementById("description").textContent = data.description;
+    document.getElementById("description").innerHTML = data.description;
     document.getElementById("courseVideo").src = data.video;
 } else {
     document.getElementById("pageTitle").textContent = "Not Found";

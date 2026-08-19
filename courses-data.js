@@ -131,15 +131,31 @@ const courses = {
         title: "Squeaky Clean Sprint",
         category: "Afterimage",
         categoryLink: "afterimage.html",
-        description: "???",
+        description: "Crash into a wall while using a Mushroom or other speed boost to create an afterimage.",
         video: "vid/afterimage/Squeaky-Clean-Sprint.mp4"
     },
 
-    "afterimage-yoshi’s-island": {
-        title: "Yoshi’s Island",
+    "afterimage-yoshis-island": {
+        title: "Yoshis Island",
         category: "Afterimage",
         categoryLink: "afterimage.html",
+        description: 'After using <a href="wall-cross.html">Wall Cross</a> move toward the underwater area to see afterimages of the characters and visual effects.',
+        video: "vid/afterimage/Yoshis-Island.mp4"
+    },
+
+    "buried-rainbow-road": {
+        title: "Rainbow Road",
+        category: "Buried",
+        categoryLink: "buried.html",
         description: "???",
-        video: "vid/afterimage/Yoshi’s-Island.mp4"
-    }
+        video: "vid/buried/Rainbow-Road.mp4"
+    },
+
+    "buried-sky-high-sundae": {
+        title: "Sky-High Sundae",
+        category: "Buried",
+        categoryLink: "buried.html",
+        description: "???",
+        video: "vid/buried/Sky-High-Sundae.mp4"
+    },
 };
