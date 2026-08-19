@@ -14,3 +14,14 @@ if (data) {
     document.getElementById("courseTitle").textContent = "ページが見つかりません";
     document.getElementById("description").textContent = "このコースのデータはまだ登録されていません。";
 }
+
+document.querySelectorAll('video').forEach(video => {
+    // 保存されている音量があれば使う、なければ初期値0.2
+    const savedVolume = localStorage.getItem('videoVolume');
+    video.volume = savedVolume !== null ? parseFloat(savedVolume) : 1;
+
+    // ユーザーが音量を変えたら、その都度保存する
+    video.addEventListener('volumechange', () => {
+        localStorage.setItem('videoVolume', video.volume);
+    });
+});
