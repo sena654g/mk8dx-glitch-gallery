@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -82,6 +83,8 @@ li {
 .hero {
   position: relative;
     margin-bottom: 160px; /* これを追加 */
+width: 100%;overflow: hidden;
+
 }
 
 .hero h1 {
@@ -172,6 +175,8 @@ ul {
 video {
     padding-left: 90px;
     padding-top: 50px;
+        max-width: 100%;
+    height: auto;
 }
 
 p a,
@@ -187,8 +192,88 @@ h1 a:visited,
     color: #1db7ff;
 }
 
-
+.mobile-break {
+    display: none;
+}
 
 a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .mobile-break {
+        display: inline;
+    }
+
+     .hero {
+        height: 500px; /* 好きな高さに調整 */
+        margin-bottom: 40px;
+    }
+
+
+    .hero h1 {
+        font-size: 52px;
+        white-space: nowrap;
+       text-align: center;  /* これを追加 */
+    }
+
+    .hero img {
+        max-width: 222%;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+        -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+        mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+   
+    }
+
+    .about-link,
+.home-link {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .gallary {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    h1, h2, p, ul, video, .gallary, .data-table {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+        .hero {
+        margin-left: -20px;
+        margin-right: -20px;
+        width: calc(100% + 40px);
+    }
+
+    .about-link {
+    top: 20px;
+    left: 20px;
+}
+
+.home-link {
+    top: 20px;
+    right: 20px;
+}
+
+.data-table th:nth-child(1),
+.data-table td:nth-child(1) {
+    width: 90px; /* ICON列 */
+}
+
+h1 {
+    font-size: 32px;
+
+
+}
 }
