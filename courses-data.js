@@ -143,6 +143,15 @@ const courses = {
         video: "vid/stuck/Piranha-Plant-Cove.mp4"
     },
 
+      "stuck-dragon-palace": {
+        title: "Dragon Palace",
+        category: "Stuck",
+        categoryLink: "stuck.html",
+        descriptionJa: "小さなキャラとカスタムを選び、境界に向かってジャンプアクションします。",
+        description: "Choose a small character and a custom kart, then perform a jump action toward the boundary.",
+        video: "vid/stuck/Dragon-Palace.mp4"
+    },
+
     "afterimage-squeaky-clean-sprint": {
         title: "Squeaky Clean Sprint",
         category: "Afterimage",
