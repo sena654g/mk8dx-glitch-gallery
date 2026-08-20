@@ -270,7 +270,10 @@ a:hover {
 .data-table td:nth-child(1) {
     width: 90px; /* ICON列 */
 }
-
+.data-table th:nth-child(4),
+.data-table td:nth-child(4) {
+    width: 60px; /* SPOTS列 */
+}
 h1 {
     font-size: 32px;
 
