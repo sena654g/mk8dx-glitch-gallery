@@ -272,7 +272,7 @@ a:hover {
 }
 .data-table th:nth-child(4),
 .data-table td:nth-child(4) {
-    width: 60px; /* SPOTS列 */
+    width: 70px; /* SPOTS列 */
 }
 h1 {
     font-size: 32px;
