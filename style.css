@@ -56,7 +56,9 @@ a:hover {
   position: fixed;
   top: 20px;
   font-size: 24px;
-    background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.4);
+  padding: 6px 14px;
+  border-radius: 6px;
 }
 
 .about-link {
@@ -135,28 +137,43 @@ li {
   grid-template-columns: 1fr 1fr 1fr;
   max-width: 1400px;
   margin: 0 auto;
-  gap: 120px 28px;
+  gap: 120px 60px;
 }
 
 .gallary figure {
+  position: relative;
   margin: 0;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.gallary figure a {
+  display: block;
 }
 
 .gallary img {
   width: 100%;
-  aspect-ratio: 16 / 9;
-  border-radius: 12px;
-  transition: opacity 0.3s ease;
+  aspect-ratio: 4 / 3;
+    object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
 }
 
 .gallary img:hover {
-  opacity: 0.8;
+  transform: scale(1.05);
 }
 
 .gallary figcaption {
-  margin-top: 18px;
-  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 40px 16px 14px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0));
   color: rgb(250, 250, 250);
+  text-align: left;
+  font-weight: 500;
+  pointer-events: none;
 }
 
 /* Data table */
@@ -292,11 +309,11 @@ video {
     width: 90px; /* ICON列 */
   }
 
-    .data-table th:nth-child(2),
+  .data-table th:nth-child(2),
   .data-table td:nth-child(2) {
     width: 120px; /* NAME列 */
   }
- 
+
   .data-table th:nth-child(3),
   .data-table td:nth-child(3) {
     width: 90px; /* DIFFICULTY列 */
@@ -307,3 +324,4 @@ video {
     width: 70px; /* SPOTS列 */
   }
 }
+
