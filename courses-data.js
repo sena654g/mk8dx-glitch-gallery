@@ -165,7 +165,7 @@ const courses = {
         title: "Yoshis Island",
         category: "Afterimage",
         categoryLink: "afterimage.html",
-        descriptionJa: '<a href="wall-cross.html">Wall Cross</a> を使い裏世界に入った後、残像が発生するエリアを見ることができます。',
+        descriptionJa: '<a href="wall-cross.html">Wall Cross</a>を使い裏世界に入った後、残像が発生するエリアを見ることができます。',
         description: 'After entering out of bounds using <a href="wall-cross.html">Wall Cross</a>, you can find an area where the afterimage effect appears.',
         video: "vid/afterimage/Yoshis-Island.mp4"
     },
