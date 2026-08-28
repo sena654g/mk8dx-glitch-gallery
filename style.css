@@ -20,15 +20,10 @@ body {
   font-family: sans-serif;
   font-weight: 600;
   background-color: var(--color-bg);
+  padding-left: 400px;
+    padding-right: 400px;
 }
 
-h1,
-h2,
-p,
-ul {
-  padding-left: 90px;
-  padding-right: 90px;
-}
 
 p {
   color: var(--color-text);
@@ -59,6 +54,7 @@ a:hover {
   background: rgba(0, 0, 0, 0.4);
   padding: 6px 14px;
   border-radius: 6px;
+  z-index: 100;
 }
 
 .about-link {
@@ -71,11 +67,20 @@ a:hover {
 
 /* Headings */
 h1 {
+  position: relative;
   font-size: 62px;
   color: white;
-  border-bottom: 1px solid white;
   padding-bottom: 10px;
   padding-top: 40px;
+}
+
+h1::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.856);
 }
 
 h2 {
@@ -110,7 +115,7 @@ li {
 }
 
 .hero img {
-  max-width: 70%;
+  max-width: 100%;
   display: block;
   margin: 0 auto;
   mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
@@ -129,15 +134,24 @@ li {
   border-bottom: none;
   padding: 0;
   margin: 0;
+  width: auto;
+    white-space: nowrap;
+  width: max-content;
+}
+
+.hero h1::after {
+  content: none;
 }
 
 /* Gallery */
 .gallary {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 230px;
+  grid-auto-flow: dense;
+  gap: 24px;
   max-width: 1400px;
   margin: 0 auto;
-  gap: 120px 60px;
 }
 
 .gallary figure {
@@ -147,14 +161,20 @@ li {
   border-radius: 12px;
 }
 
+.gallary figure.featured {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
 .gallary figure a {
   display: block;
+  height: 100%;
 }
 
 .gallary img {
   width: 100%;
-  aspect-ratio: 4 / 3;
-    object-fit: cover;
+  height: 100%;
+  object-fit: cover;
   display: block;
   transition: transform 0.3s ease;
 }
@@ -176,13 +196,18 @@ li {
   pointer-events: none;
 }
 
+.gallary figure.featured figcaption {
+  font-size: 24px;
+  padding: 60px 20px 18px;
+}
+
 /* Data table */
 .data-table {
   border-collapse: collapse;
   width: 100%;
   max-width: 500px;
   color: white;
-  margin-left: 90px;
+  margin-left: 0px;
   margin-top: 50px;
   table-layout: fixed;
 }
@@ -223,7 +248,7 @@ li {
 
 /* Video */
 video {
-  padding-left: 90px;
+  padding-left: 0px;
   padding-top: 50px;
   max-width: 100%;
   height: auto;
@@ -247,6 +272,11 @@ video {
 
   h1 {
     font-size: 32px;
+  }
+
+  h1::after {
+    left: 0;
+    right: 0;
   }
 
   .hero {
@@ -288,7 +318,14 @@ video {
   }
 
   .gallary {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 150px;
+    gap: 12px;
+  }
+
+  .gallary figure.featured figcaption {
+    font-size: 16px;
+    padding: 40px 14px 12px;
   }
 
   h1,
@@ -324,4 +361,3 @@ video {
     width: 70px; /* SPOTS列 */
   }
 }
-
