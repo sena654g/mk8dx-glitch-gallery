@@ -156,8 +156,8 @@ const courses = {
         title: "Squeaky Clean Sprint",
         category: "Afterimage",
         categoryLink: "afterimage.html",
-        descriptionJa: "キノコやターボで加速しながら壁にぶつかると壁をすり抜け、残像が発生します。",
-        description: "Crash into the wall while accelerating with a Mushroom or a turbo boost to clip through it, causing an afterimage effect.",
+        descriptionJa: "キノコやターボで加速しながら壁にぶつかり、壁をすり抜けます。",
+        description: "Crash into the wall while accelerating with a Mushroom or a turbo boost to clip through it.",
         video: "vid/afterimage/Squeaky-Clean-Sprint.mp4"
     },
 
@@ -166,7 +166,7 @@ const courses = {
         category: "Afterimage",
         categoryLink: "afterimage.html",
         descriptionJa: '<a href="wall-cross.html">Wall Cross</a> を使い裏世界に入った後、残像が発生するエリアを見ることができます。',
-        description: 'After entering Out of Bounds world using <a href="wall-cross.html">Wall Cross</a>, you can find an area where the afterimage effect appears.',
+        description: 'After entering out of bounds using <a href="wall-cross.html">Wall Cross</a>, you can find an area where the afterimage effect appears.',
         video: "vid/afterimage/Yoshis-Island.mp4"
     },
 
@@ -183,8 +183,8 @@ const courses = {
         title: "Sky-High Sundae",
         category: "Buried",
         categoryLink: "buried.html",
-        descriptionJa: "加速しながら地面に降ります。",
-        description: "Descend to the ground while accelerating.",
+        descriptionJa: "加速しながら地面に降ります。横を向くことで抜け出せます。",
+        description: "Descend to the ground while accelerating. You can escape by turning sideways.",
         video: "vid/buried/Sky-High-Sundae.mp4"
     },
 

@@ -55,6 +55,11 @@ a:hover {
   padding: 6px 14px;
   border-radius: 6px;
   z-index: 100;
+color: white;
+}
+.about-link:visited,
+.home-link:visited {
+  color: white;
 }
 
 .about-link {
@@ -176,11 +181,11 @@ li {
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform 0.3s ease;
+  transition: filter 0.1s ease;
 }
 
 .gallary img:hover {
-  transform: scale(1.05);
+  filter: brightness(0.9);
 }
 
 .gallary figcaption {
