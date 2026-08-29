@@ -329,7 +329,7 @@ video {
   }
 
   .gallary figure.featured figcaption {
-    font-size: 16px;
+    font-size: 24px;
     padding: 40px 14px 12px;
   }
 
@@ -358,12 +358,12 @@ video {
 
   .data-table th:nth-child(3),
   .data-table td:nth-child(3) {
-    width: 90px; /* DIFFICULTY列 */
+    width: 100px; /* DIFFICULTY列 */
   }
 
   .data-table th:nth-child(4),
   .data-table td:nth-child(4) {
-    width: 70px; /* SPOTS列 */
+    width: 60px; /* SPOTS列 */
   }
 
 
