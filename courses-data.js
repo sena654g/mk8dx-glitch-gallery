@@ -188,5 +188,21 @@ const courses = {
         video: "vid/buried/Sky-High-Sundae.mp4"
     },
 
+    "edge-clip-shy-guy-falls": {
+        title: "Shy Guy Falls",
+        category: "Edge Clip",
+        categoryLink: "edge-clip.html",
+        descriptionJa: "",
+        description: "",
+        video: "vid/edge-clip/shy-guy-falls.mp4"
+    },
 
+    "edge-clip-warios-gold-mine": {
+        title: "Warios Gold Mine",
+        category: "Edge Clip",
+        categoryLink: "edge-clip.html",
+        descriptionJa: "",
+        description: "",
+        video: "vid/edge-clip/warios-gold-mine.mp4"
+    },
 };
