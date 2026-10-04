@@ -6,8 +6,8 @@ const courses = {
     category: "Stuck",
     categoryJa: "ハマる",
     categoryLink: "stuck.html",
-    descriptionJa: "クレーンめがけてキノコを使いジャンプし左側にはじかれます。",
-    description: "Use a Mushroom and jump toward the crane to bounce off to the left side.",
+    descriptionJa: "",
+    description: "",
     video: "vid/stuck/waluigi-stadium.mp4"
 },
 
@@ -17,8 +17,8 @@ const courses = {
     category: "Stuck",
     categoryJa: "ハマる",
     categoryLink: "stuck.html",
-    descriptionJa: "キノコを使いドリフトしながら木にぶつかります。",
-    description: "Drift into the tree while using a Mushroom.",
+    descriptionJa: "",
+    description: "",
     video: "vid/stuck/athens-dash.mp4"
 },
 
@@ -39,7 +39,7 @@ const courses = {
     category: "Stuck",
     categoryJa: "ハマる",
     categoryLink: "stuck.html",
-    descriptionJa: "タイミングよくグライダーに乗り動く物体に当たるとグライダーが閉じます。挟まるとキャラクターが左右に動き続けます。",
+    descriptionJa: "タイミングよくグライダーに乗り動く物体に当たるとグライダーが閉じます。ハマるとキャラクターが物体に合わせて左右に動き続けます。",
     description: "If you deploy your glider with the right timing and hit a moving object, the glider will close. Once stuck, the character keeps moving left and right.",
     video: "vid/stuck/los-angeles-laps.mp4"
 },
@@ -50,8 +50,8 @@ const courses = {
     category: "Stuck",
     categoryJa: "ハマる",
     categoryLink: "stuck.html",
-    descriptionJa: "コース序盤の橋の上からキノコを使って壁に当たります。",
-    description: "Use a Mushroom on the bridge early in the course and crash into the wall.",
+    descriptionJa: "壁に当たる位置が重要です。",
+    description: "The position where you hit the wall is important.",
     video: "vid/stuck/merry-mountain.mp4"
 },
 
@@ -61,8 +61,8 @@ const courses = {
     category: "Stuck",
     categoryJa: "ハマる",
     categoryLink: "stuck.html",
-    descriptionJa: "スティックを下に傾けながら水流に乗り上昇した後クラゲに乗ります。挟まっている間、スティックを傾けるとキャラクターも傾きます。また、キャラクターは上下に揺れています。",
-    description: "Tilt the stick down while riding the water current to rise up, then land on a jellyfish. While stuck, tilting the stick will also tilt the character. Also, the character keeps bobbing up and down.",
+    descriptionJa: "スティックを下に傾けながら水流に乗りクラゲに乗ります。ハマっているときスティックを傾けるとキャラクターも傾きます。また、キャラクターは上下に揺れています。",
+    description: "While tilting the stick downward, ride the water current and get onto the jellyfish. While you're stuck in it, tilting the stick also tilts the character. The character also bobs up and down.",
     video: "vid/stuck/dolphin-shoals.mp4"
 },
 
@@ -72,8 +72,8 @@ const courses = {
     category: "Stuck",
     categoryJa: "ハマる",
     categoryLink: "stuck.html",
-    descriptionJa: "床の波を利用してSJを使いカートのハンドルにぶつかり下にはじかれます。",
-    description: "Use the floor's wave motion with Kusaan Slide to hit the kart's steering wheel and get bounced downward.",
+    descriptionJa: "",
+    description: "",
     video: "vid/stuck/ribbon-road.mp4"
 },
 
@@ -83,8 +83,8 @@ const courses = {
     category: "Stuck",
     categoryJa: "ハマる",
     categoryLink: "stuck.html",
-    descriptionJa: "歯車でジャンプアクションした後ゴールに乗ります。",
-    description: "Do a jump action off the gear, then land on the goal.",
+    descriptionJa: "",
+    description: "",
     video: "vid/stuck/tick-tock-clock.mp4"
 },
 
@@ -105,8 +105,8 @@ const courses = {
     category: "Stuck",
     categoryJa: "ハマる",
     categoryLink: "stuck.html",
-    descriptionJa: "岩に向かってキノコを使いジャンプアクションします。",
-    description: "Use a Mushroom and do a jump action toward the rock.",
+    descriptionJa: "",
+    description: "",
     video: "vid/stuck/coconut-mall.mp4"
 },
 
@@ -149,8 +149,8 @@ const courses = {
     category: "Stuck",
     categoryJa: "ハマる",
     categoryLink: "stuck.html",
-    descriptionJa: "ハーフパイプの横へ勢いをつけ乗ります。",
-    description: "Build up speed and get onto the side of the halfpipe.",
+    descriptionJa: "",
+    description: "",
     video: "vid/stuck/dk-summit.mp4"
 },
 
@@ -171,8 +171,8 @@ const courses = {
     category: "Stuck",
     categoryJa: "ハマる",
     categoryLink: "stuck.html",
-    descriptionJa: "水流に乗り上昇しイカリに乗ります。",
-    description: "Ride the water current to rise up, then land on the anchor.",
+    descriptionJa: "",
+    description: "",
     video: "vid/stuck/piranha-plant-cove.mp4"
 },
 
@@ -182,8 +182,8 @@ const courses = {
     category: "Stuck",
     categoryJa: "ハマる",
     categoryLink: "stuck.html",
-    descriptionJa: "小さなキャラとカスタムを選び、境界に向かってジャンプアクションします。",
-    description: "Choose a small character and a custom kart, then perform a jump action toward the boundary.",
+    descriptionJa: "",
+    description: "",
     video: "vid/stuck/dragon-palace.mp4"
 },
 
@@ -204,8 +204,8 @@ const courses = {
     category: "Afterimage",
     categoryJa: "残像",
     categoryLink: "afterimage.html",
-    descriptionJa: '<a href="wall-cross.html">ウォールクロス</a>を使い裏世界に入った後、残像が発生するエリアを見ることができます。',
-    description: 'After entering out of bounds using <a href="wall-cross.html">Wall Cross</a>, you can find an area where the afterimage effect appears.',
+    descriptionJa: '<a href="wall-cross.html">ウォールクロス</a>を使い裏世界に入ります。',
+    description: 'Use the <a href="wall-cross.html">Wall Cross</a> to enter out of bounds.',
     video: "vid/afterimage/yoshis-island.mp4"
 },
 
@@ -215,8 +215,8 @@ const courses = {
     category: "Buried",
     categoryJa: "埋まる",
     categoryLink: "buried.html",
-    descriptionJa: "加速しながら地面に降ります。",
-    description: "Descend to the ground while accelerating.",
+    descriptionJa: "",
+    description: "",
     video: "vid/buried/rainbow-road.mp4"
 },
 
@@ -226,8 +226,8 @@ const courses = {
     category: "Buried",
     categoryJa: "埋まる",
     categoryLink: "buried.html",
-    descriptionJa: "加速しながら地面に降ります。横を向くことで抜け出せます。",
-    description: "Descend to the ground while accelerating. You can escape by turning sideways.",
+    descriptionJa: "横を向くことで抜け出せます。",
+    description: "You can escape by turning sideways.",
     video: "vid/buried/sky-high-sundae.mp4"
 },
 
