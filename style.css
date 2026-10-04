@@ -144,6 +144,10 @@ li {
   width: max-content;
 }
 
+html[lang="ja"] .hero h1 {
+  font-size: 60px;
+}
+
 .hero h1::after {
   content: none;
 }
@@ -317,6 +321,10 @@ html[lang="en"] [lang="ja"] {
     font-size: 52px;
     white-space: nowrap;
     text-align: center;
+  }
+
+    html[lang="ja"] .hero h1 {
+    font-size: 44px;
   }
 
   .hero img {
