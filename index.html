@@ -2,7 +2,7 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title>MK8DX Glitche Gallery</title>
+        <title>MK8DX Glitch Gallery</title>
         <script src="lang.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -126,5 +126,20 @@
             </a>
         </div>
         
+
+        <script src="courses-data.js"></script>
+<script>
+  document.querySelectorAll('.glitch-row').forEach(row => {
+    const link = row.getAttribute('href');
+    const n = Object.values(courses).filter(c => c.categoryLink === link).length;
+
+    const el = document.createElement('span');
+    el.className = 'row-count';
+    if (n > 0) {
+      el.innerHTML = `<span lang="ja">収録数 ${n}</span><span lang="en">${n} entries</span>`;
+    }
+    row.insertBefore(el, row.querySelector('.row-arrow'));
+  });
+</script>
     </body>
 </html>

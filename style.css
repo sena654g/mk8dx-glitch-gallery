@@ -20,6 +20,7 @@ body {
   font-family: sans-serif;
   font-weight: 600;
   background-color: var(--color-bg);
+  padding-top: 72px; /* 上部バーの高さぶん */
   padding-left: 400px;
     padding-right: 400px;
 }
@@ -46,16 +47,28 @@ a:hover {
   text-decoration: underline;
 }
 
+/* 上部の黒い帯（全ページ共通・スクロールしても表示） */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 72px;
+  background: #000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  z-index: 99;
+}
+
 .about-link,
 .home-link {
   position: fixed;
-  top: 20px;
+  top: 16px;
   font-size: 24px;
-  background: rgba(0, 0, 0, 0.4);
   padding: 6px 14px;
   border-radius: 6px;
   z-index: 100;
-color: white;
+  color: white;
 }
 .about-link:visited,
 .home-link:visited {
@@ -162,13 +175,19 @@ html[lang="ja"] .hero h1 {
 .glitch-row,
 .glitch-row:visited {
   display: grid;
-  grid-template-columns: 240px 1fr 32px;
+  grid-template-columns: 240px 1fr auto 32px;  /* サムネ / タイトル / 収録数 / 矢印 */
   align-items: center;
   gap: 32px;
   padding: 16px 12px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
   color: var(--color-text);
   transition: background 0.15s ease;
+}
+
+.row-count {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.6;
 }
 
 .glitch-row:hover {
@@ -268,14 +287,14 @@ video {
 
 .lang-toggle {
   position: fixed;
-  bottom: 20px;
-  right: 40px;
+  top: 16px;
+    left: 160px;
   z-index: 100;
   font-family: inherit;
   font-size: 24px;
   font-weight: 600;
   color: white;
-  background: rgba(0, 0, 0, 0.4);
+  background: none;
   border: none;
   border-radius: 6px;
   padding: 6px 14px;
@@ -285,6 +304,10 @@ video {
 html[lang="ja"] [lang="en"],
 html[lang="en"] [lang="ja"] {
   display: none;
+}
+
+html {
+  scrollbar-gutter: stable;
 }
 
 /* Responsive (max-width: 600px) */
@@ -316,13 +339,13 @@ html[lang="en"] [lang="ja"] {
   }
 
   .hero h1 {
-    font-size: 52px;
+    font-size: 42px;
     white-space: nowrap;
     text-align: center;
   }
 
     html[lang="ja"] .hero h1 {
-    font-size: 44px;
+    font-size: 34px;
   }
 
   .hero img {
@@ -356,17 +379,25 @@ html[lang="en"] [lang="ja"] {
     left: 20px;
   }
 
-  .home-link {
-    right: 20px;
-  }
+ .home-link {
+  right: 20px;
+}
+
+.lang-toggle {
+  left: 130px;
+}
 
 
 
   .glitch-row {
-    grid-template-columns: 120px 1fr 20px;
+    grid-template-columns: 120px 1fr auto 20px;
     gap: 14px;
     padding: 12px 4px;
   }
+
+  .row-count {
+  font-size: 13px;
+}
 
   .row-title {
     font-size: 17px;
