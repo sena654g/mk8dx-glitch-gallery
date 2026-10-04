@@ -152,62 +152,60 @@ html[lang="ja"] .hero h1 {
   content: none;
 }
 
-/* Gallery */
-.gallary {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 230px;
-  grid-auto-flow: dense;
-  gap: 27px;
-  max-width: 1400px;
+/* Gallery (list) */
+.glitch-list {
+  max-width: 1100px;
   margin: 0 auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
 
-.gallary figure {
-  position: relative;
-  margin: 0;
-  overflow: hidden;
-  border-radius: 12px;
+.glitch-row,
+.glitch-row:visited {
+  display: grid;
+  grid-template-columns: 240px 1fr 32px;
+  align-items: center;
+  gap: 32px;
+  padding: 16px 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  color: var(--color-text);
+  transition: background 0.15s ease;
 }
 
-.gallary figure.featured {
-  grid-column: span 2;
-  grid-row: span 2;
+.glitch-row:hover {
+  background: rgba(255, 255, 255, 0.05);
+  text-decoration: none;
 }
 
-.gallary figure a {
-  display: block;
-  height: 100%;
-}
-
-.gallary img {
+.glitch-row img {
   width: 100%;
-  height: 100%;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
   display: block;
-  transition: filter 0.1s ease;
+  border-radius: 8px;
 }
 
-.gallary img:hover {
-  filter: brightness(0.9);
+.row-title {
+  font-size: 22px;
+  font-weight: 700;
 }
 
-.gallary figcaption {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 40px 16px 14px;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0));
-  color: rgb(250, 250, 250);
-  text-align: left;
-  font-weight: 500;
-  pointer-events: none;
+.row-arrow {
+  justify-self: end;
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform 0.15s ease;
 }
 
-.gallary figure.featured figcaption {
-  font-size: 27px;
-  padding: 60px 20px 18px;
+.glitch-row:hover .row-arrow {
+  transform: translateX(4px) rotate(45deg);
+}
+
+.glitch-row:focus-visible {
+  outline: 2px solid var(--color-link);
+  outline-offset: -2px;
 }
 
 /* Data table */
@@ -364,15 +362,14 @@ html[lang="en"] [lang="ja"] {
 
 
 
-  .gallary {
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 150px;
-    gap: 20px;
+  .glitch-row {
+    grid-template-columns: 120px 1fr 20px;
+    gap: 14px;
+    padding: 12px 4px;
   }
 
-  .gallary figure.featured figcaption {
-    font-size: 24px;
-    padding: 40px 14px 12px;
+  .row-title {
+    font-size: 17px;
   }
 
   h1,
@@ -380,7 +377,7 @@ html[lang="en"] [lang="ja"] {
   p,
   ul,
   video,
-  .gallary,
+  .glitch-list,
   .data-table {
     padding-left: 0;
     padding-right: 0;
