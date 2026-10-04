@@ -264,6 +264,27 @@ video {
   display: none;
 }
 
+.lang-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 100;
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  border: none;
+  border-radius: 6px;
+  padding: 6px 14px;
+  cursor: pointer;
+}
+
+html[lang="ja"] [lang="en"],
+html[lang="en"] [lang="ja"] {
+  display: none;
+}
+
 /* Responsive (max-width: 600px) */
 @media (max-width: 600px) {
   .mobile-break {
@@ -332,6 +353,8 @@ video {
   .home-link {
     right: 20px;
   }
+
+
 
   .gallary {
     grid-template-columns: repeat(2, 1fr);
