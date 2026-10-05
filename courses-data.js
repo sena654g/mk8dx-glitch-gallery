@@ -605,4 +605,117 @@ const courses = {
     description: "",
     video: "vid/wall-cross/ninja-hideaway.mp4"
 },
+
+
+
+
+"spin-loop-bone-dry-dunes": {
+    title: "Bone-Dry Dunes",
+    titleJa: "ホネホネさばく",
+    category: "Spin Loop",
+    categoryJa: "連続スピン",
+    categoryLink: "spin-loop.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/spin-loop/bone-dry-dunes.mp4"
+},
+"spin-loop-merry-mountain": {
+    title: "Merry Mountain",
+    titleJa: "メリーメリーマウンテン",
+    category: "Spin Loop",
+    categoryJa: "連続スピン",
+    categoryLink: "spin-loop.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/spin-loop/merry-mountain.mp4"
+},
+"spin-loop-wii-rainbow-road": {
+    title: "Wii Rainbow Road",
+    titleJa: "Wiiレインボーロード",
+    category: "Spin Loop",
+    categoryJa: "連続スピン",
+    categoryLink: "spin-loop.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/spin-loop/wii-rainbow-road.mp4"
+},
+
+
+
+
+
+"secret-area-moo-moo-meadows": {
+    title: "Moo Moo Meadows",
+    titleJa: "モーモーカントリー",
+    category: "Secret Area",
+    categoryJa: "隠しエリア",
+    categoryLink: "secret-area.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/secret-area/moo-moo-meadows.mp4"
+},
+"secret-area-dk-summit": {
+    title: "DK Summit",
+    titleJa: "DKスノーボードクロス",
+    category: "Secret Area",
+    categoryJa: "隠しエリア",
+    categoryLink: "secret-area.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/secret-area/dk-summit.mp4"
+},
+"secret-area-rosalinas-ice-world": {
+    title: "Rosalinas Ice World",
+    titleJa: "ロゼッタプラネット",
+    category: "Secret Area",
+    categoryJa: "隠しエリア",
+    categoryLink: "secret-area.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/secret-area/rosalinas-ice-world.mp4"
+},
+"secret-area-animal-crossing": {
+    title: "Animal Crossing",
+    titleJa: "どうぶつの森",
+    category: "Secret Area",
+    categoryJa: "隠しエリア",
+    categoryLink: "secret-area.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/secret-area/animal-crossing.mp4"
+},
+"secret-area-new-york-minute": {
+    title: "New York Minute",
+    titleJa: "ニューヨークドリーム",
+    category: "Secret Area",
+    categoryJa: "隠しエリア",
+    categoryLink: "secret-area.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/secret-area/new-york-minute.mp4"
+},
+
+
+
+
+"blue-shell-stuck-thwomp-ruins": {
+    title: "Thwomp Ruins",
+    titleJa: "ドッスンいせき",
+    category: "Blue Shell Stuck",
+    categoryJa: "引っかかる青甲羅",
+    categoryLink: "blue-shell-stuck.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/blue-shell-stuck/thwomp-ruins.mp4"
+},
+"blue-shell-stuck-coconut-mall": {
+    title: "Coconut Mall",
+    titleJa: "ココナッツモール",
+    category: "Blue Shell Stuck",
+    categoryJa: "引っかかる青甲羅",
+    categoryLink: "blue-shell-stuck.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/blue-shell-stuck/coconut-mall.mp4"
+},
 };
