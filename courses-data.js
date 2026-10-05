@@ -574,4 +574,35 @@ const courses = {
     video: "vid/oob-bullet-bill/wario-stadium.mp4"
 },
 
+
+"wall-cross-animal-crossing": {
+    title: "Animal Crossing",
+    titleJa: "どうぶつの森",
+    category: "Wall Cross",
+    categoryJa: "ウォールクロス",
+    categoryLink: "wall-cross.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/wall-cross/animal-crossing.mp4"
+},
+"wall-cross-madrid-drive": {
+    title: "Madrid Drive",
+    titleJa: "マドリードグランデ",
+    category: "Wall Cross",
+    categoryJa: "ウォールクロス",
+    categoryLink: "wall-cross.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/wall-cross/madrid-drive.mp4"
+},
+"wall-cross-ninja-hideaway": {
+    title: "Ninja Hideaway",
+    titleJa: "ニンニンドージョー",
+    category: "Wall Cross",
+    categoryJa: "ウォールクロス",
+    categoryLink: "wall-cross.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/wall-cross/ninja-hideaway.mp4"
+},
 };
