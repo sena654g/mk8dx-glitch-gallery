@@ -286,4 +286,41 @@ const courses = {
     video: "vid/edge-clip/amsterdam-drift.mp4"
 },
 
+
+
+
+
+"oob-bullet-bill-daisy-circuit": {
+    title: "Daisy Circuit",
+    titleJa: "デイジーサーキット",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/daisy-circuit.mp4"
+},
+
+"oob-bullet-bill-bowser-castle-3": {
+    title: "Bowser Castle 3",
+    titleJa: "クッパじょう3",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/bowser-castle-3.mp4"
+},
+
+"oob-bullet-bill-animal-crossing": {
+    title: "Animal Crossing",
+    titleJa: "どうぶつの森",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/animal-crossing.mp4"
+},
+
 };
