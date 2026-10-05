@@ -310,6 +310,34 @@ html {
   scrollbar-gutter: stable;
 }
 
+
+/* Footer (SNS icons) */
+.site-footer {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 80px;
+  padding: 40px 0 60px;
+}
+
+.site-footer a,
+.site-footer a:visited {
+  color: white;
+  opacity: 0.6;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.site-footer a:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.site-footer svg {
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+
 /* Responsive (max-width: 600px) */
 @media (max-width: 600px) {
   .mobile-break {
