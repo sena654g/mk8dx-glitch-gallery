@@ -323,4 +323,255 @@ const courses = {
     video: "vid/oob-bullet-bill/animal-crossing.mp4"
 },
 
+
+
+
+
+
+
+
+
+
+
+"oob-bullet-bill-athens-dash": {
+    title: "Athens Dash",
+    titleJa: "アテネポリス",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/athens-dash.mp4"
+},
+"oob-bullet-bill-berlin-byways": {
+    title: "Berlin Byways",
+    titleJa: "ベルリンシュトラーセ",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/berlin-byways.mp4"
+},
+"oob-bullet-bill-cheep-cheep-beach": {
+    title: "Cheep Cheep Beach",
+    titleJa: "プクプクビーチ",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/cheep-cheep-beach.mp4"
+},
+"oob-bullet-bill-dk-summit": {
+    title: "DK Summit",
+    titleJa: "DKスノーボードクロス",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/dk-summit.mp4"
+},
+"oob-bullet-bill-gba-mario-circuit": {
+    title: "GBA Mario Circuit",
+    titleJa: "GBAマリオサーキット",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/gba-mario-circuit.mp4"
+},
+"oob-bullet-bill-hyrule-circuit": {
+    title: "Hyrule Circuit",
+    titleJa: "ハイラルサーキット",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/hyrule-circuit.mp4"
+},
+"oob-bullet-bill-kalimari-desert": {
+    title: "Kalimari Desert",
+    titleJa: "N64カラカラさばく",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/kalimari-desert.mp4"
+},
+"oob-bullet-bill-koopa-cape": {
+    title: "Koopa Cape",
+    titleJa: "ノコノコみさき",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/koopa-cape.mp4"
+},
+"oob-bullet-bill-los-angeles-laps": {
+    title: "Los Angeles Laps",
+    titleJa: "ロサンゼルスコースト",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/los-angeles-laps.mp4"
+},
+"oob-bullet-bill-maple-treeway": {
+    title: "Maple Treeway",
+    titleJa: "メイプルツリーハウス",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/maple-treeway.mp4"
+},
+"oob-bullet-bill-merry-mountain": {
+    title: "Merry Mountain",
+    titleJa: "メリーメリーマウンテン",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/merry-mountain.mp4"
+},
+"oob-bullet-bill-mushroom-gorge": {
+    title: "Mushroom Gorge",
+    titleJa: "キノコキャニオン",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/mushroom-gorge.mp4"
+},
+"oob-bullet-bill-peach-gardens": {
+    title: "Peach Gardens",
+    titleJa: "ピーチガーデン",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/peach-gardens.mp4"
+},
+"oob-bullet-bill-piranha-plant-cove": {
+    title: "Piranha Plant Cove",
+    titleJa: "パックンしんでん",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/piranha-plant-cove.mp4"
+},
+"oob-bullet-bill-piranha-plant-slide": {
+    title: "Piranha Plant Slide",
+    titleJa: "パックンスライダー",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/piranha-plant-slide.mp4"
+},
+"oob-bullet-bill-rosalinas-ice-world": {
+    title: "Rosalina's Ice World",
+    titleJa: "ロゼッタプラネット",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/rosalinas-ice-world.mp4"
+},
+"oob-bullet-bill-shroom-ridge": {
+    title: "Shroom Ridge",
+    titleJa: "キノコリッジウェイ",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/shroom-ridge.mp4"
+},
+"oob-bullet-bill-squeaky-clean-sprint": {
+    title: "Squeaky Clean Sprint",
+    titleJa: "シャボンロード",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/squeaky-clean-sprint.mp4"
+},
+"oob-bullet-bill-sunshine-airport": {
+    title: "Sunshine Airport",
+    titleJa: "サンシャインくうこう",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/sunshine-airport.mp4"
+},
+"oob-bullet-bill-sweet-sweet-canyon": {
+    title: "Sweet Sweet Canyon",
+    titleJa: "スイーツキャニオン",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/sweet-sweet-canyon.mp4"
+},
+"oob-bullet-bill-thwomp-ruins": {
+    title: "Thwomp Ruins",
+    titleJa: "ドッスンいせき",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/thwomp-ruins.mp4"
+},
+"oob-bullet-bill-tokyo-blur": {
+    title: "Tokyo Blur",
+    titleJa: "トーキョースクランブル",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/tokyo-blur.mp4"
+},
+"oob-bullet-bill-twisted-mansion": {
+    title: "Twisted Mansion",
+    titleJa: "ねじれマンション",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/twisted-mansion.mp4"
+},
+"oob-bullet-bill-wario-stadium": {
+    title: "Wario Stadium",
+    titleJa: "ワリオスタジアム",
+    category: "OOB Bullet Bill",
+    categoryJa: "裏世界キラー",
+    categoryLink: "oob-bullet-bill.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/oob-bullet-bill/wario-stadium.mp4"
+},
+
 };
