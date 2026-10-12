@@ -187,6 +187,17 @@ const courses = {
     video: "vid/stuck/dragon-palace.mp4"
 },
 
+"stuck-rainbow-road": {
+    title: "Rainbow Road",
+    titleJa: "レインボーロード",
+    category: "Stuck",
+    categoryJa: "ハマる",
+    categoryLink: "stuck.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/stuck/rainbow-road.mp4"
+},
+
 "afterimage-squeaky-clean-sprint": {
     title: "Squeaky Clean Sprint",
     titleJa: "シャボンロード",
@@ -499,8 +510,8 @@ const courses = {
     category: "OOB Bullet Bill",
     categoryJa: "裏世界キラー",
     categoryLink: "oob-bullet-bill.html",
-    descriptionJa: "",
-    description: "",
+    descriptionJa: "下から隠しアイテムボックスが見れます。",
+    description: "You can see a hidden item box from below.",
     video: "vid/oob-bullet-bill/shroom-ridge.mp4"
 },
 "oob-bullet-bill-squeaky-clean-sprint": {
