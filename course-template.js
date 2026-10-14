@@ -18,7 +18,6 @@ function render() {
       ? data.descriptionJa || data.description
       : data.description || data.descriptionJa;
     document.getElementById("description").innerHTML = text;
-    document.getElementById("courseVideo").src = data.video;
   } else {
     document.getElementById("pageTitle").textContent = "Not Found";
     document.getElementById("courseTitle").textContent =
@@ -28,9 +27,32 @@ function render() {
   }
 }
 
+// 動画は言語切り替えで作り直さないよう、最初の1回だけセットする
+function setupVideos() {
+  const first = document.getElementById("courseVideo");
+  if (!first || !data) return;
+
+  // videos配列があればそれを優先、なければ video / video2 を使う
+  const list = data.videos || [data.video, data.video2].filter(Boolean);
+  if (list.length === 0) return;
+
+  first.src = list[0];
+
+  let prev = first;
+  for (let i = 1; i < list.length; i++) {
+    const v = first.cloneNode(false); // controls等の属性を引き継ぐ
+    v.removeAttribute("id");
+    v.src = list[i];
+    prev.insertAdjacentElement("afterend", v);
+    prev = v;
+  }
+}
+
 render();
+setupVideos();
 document.addEventListener("langchange", render);
 
+// 音量の保存(追加した動画も含めて全部に適用)
 document.querySelectorAll('video').forEach(video => {
   const savedVolume = localStorage.getItem('videoVolume');
   video.volume = savedVolume !== null ? parseFloat(savedVolume) : 1;

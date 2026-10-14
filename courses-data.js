@@ -198,6 +198,17 @@ const courses = {
     video: "vid/stuck/rainbow-road.mp4"
 },
 
+"stuck-sherbet-land": {
+    title: "Sherbet Land",
+    titleJa: "シャーベットランド",
+    category: "Stuck",
+    categoryJa: "ハマる",
+    categoryLink: "stuck.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/stuck/sherbet-land.mp4"
+},
+
 "afterimage-squeaky-clean-sprint": {
     title: "Squeaky Clean Sprint",
     titleJa: "シャボンロード",
@@ -228,7 +239,8 @@ const courses = {
     categoryLink: "buried.html",
     descriptionJa: "",
     description: "",
-    video: "vid/buried/rainbow-road.mp4"
+    video: "vid/buried/rainbow-road.mp4",
+    video2: "vid/buried/rainbow-road2.mp4"
 },
 
 "buried-sky-high-sundae": {
@@ -331,7 +343,8 @@ const courses = {
     categoryLink: "oob-bullet-bill.html",
     descriptionJa: "",
     description: "",
-    video: "vid/oob-bullet-bill/animal-crossing.mp4"
+    video: "vid/oob-bullet-bill/animal-crossing.mp4",
+    video2: "vid/oob-bullet-bill/animal-crossing2.mp4"
 },
 
 
@@ -728,5 +741,15 @@ const courses = {
     descriptionJa: "",
     description: "",
     video: "vid/blue-shell-stuck/coconut-mall.mp4"
+},
+"blue-shell-stuck-super-bell-subway": {
+    title: "Super Bell Subway",
+    titleJa: "リンリンメトロ",
+    category: "Blue Shell Stuck",
+    categoryJa: "引っかかる青甲羅",
+    categoryLink: "blue-shell-stuck.html",
+    descriptionJa: "",
+    description: "",
+    video: "vid/blue-shell-stuck/super-bell-subway.mp4"
 },
 };
